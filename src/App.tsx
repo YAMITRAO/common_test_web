@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/home/Home";
 import Setting from "./pages/setting/Setting";
+import ProjCompListDesign from "./components/proj_comp/list_design/ProjCompListDesign";
 
 function App() {
   const router = createBrowserRouter([
@@ -17,6 +18,10 @@ function App() {
         {
           path: "/setting",
           element: <Setting />,
+        },
+        {
+          path: "/test",
+          element: <ProjCompListDesign />,
         },
       ],
     },
@@ -33,7 +38,7 @@ function App() {
   return (
     <div className="w-screen h-screen">
       <button
-        className="fixed top-2 right-2 bg-green-700 px-2 rounded-lg text-slate-200"
+        className="fixed top-2 z-50 right-2 bg-green-700 px-2 rounded-lg text-slate-200"
         onClick={handleBackground}
       >
         Switch

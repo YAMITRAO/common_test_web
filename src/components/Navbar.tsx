@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className=" h-full w-full  flex items-center mx-auto ">
         {/* debug button */}
         <NavLink
-          to="#"
+          to="/test"
           title="debug"
           className="flex h-full w-full items-center justify-center px-5 rounded-s-full hover:bg-gray-50 dark:hover:bg-gray-800 group"
         >
@@ -21,7 +21,7 @@ const Navbar = () => {
         {/* home */}
         <div className="flex h-full w-full items-center justify-center">
           <NavLink
-            to="#"
+            to="/"
             title="home"
             className="inline-flex items-center justify-center w-10 h-10 font-medium bg-blue-600 rounded-full hover:bg-blue-700 group focus:ring-4 focus:ring-blue-300 focus:outline-none dark:focus:ring-blue-800"
           >
