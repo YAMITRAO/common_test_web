@@ -55,7 +55,7 @@ function App() {
         className="fixed top-2 z-50 right-2 bg-green-700 px-2 rounded-lg text-slate-200"
         onClick={handleBackground}
       >
-        toggle
+        togglee
       </button>
 
       <RouterProvider router={router} />
