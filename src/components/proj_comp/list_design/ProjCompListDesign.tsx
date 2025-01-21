@@ -1,8 +1,6 @@
-import { useState } from "react";
 import Card from "./Card";
 
 const ProjCompListDesign = () => {
-  const [progress] = useState(76);
   return (
     <section className="relative py-16 bg-blueGray-50">
       <div className="w-full mb-12 px-4">

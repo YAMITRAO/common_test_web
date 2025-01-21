@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { HiAnnotation } from "react-icons/hi";
 import { RiRemoteControlLine } from "react-icons/ri";
 
 const SettingCard = () => {

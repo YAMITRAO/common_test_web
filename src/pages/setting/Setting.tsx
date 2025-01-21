@@ -1,4 +1,3 @@
-import React from "react";
 import SettingCard from "../../components/SettingCard";
 
 const Setting = () => {
