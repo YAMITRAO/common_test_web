@@ -4,6 +4,8 @@ import Layout from "./components/Layout";
 import Home from "./pages/home/Home";
 import Setting from "./pages/setting/Setting";
 import ProjCompListDesign from "./components/proj_comp/list_design/ProjCompListDesign";
+import ProjectCompoCardDesign from "./components/proj_comp/card_design/ProjectCompoCardDesign";
+import ReuleauxTriangleImage from "./components/user_comp/user_card_view/UserCardView";
 
 function App() {
   const router = createBrowserRouter(
@@ -20,9 +22,22 @@ function App() {
             path: "/setting",
             element: <Setting />,
           },
+          // {
+          //   path: "/test",
+          //   element: (
+          //     <div>
+          //       <ReuleauxTriangleImage />
+          //     </div>
+          //   ),
+          // },
           {
             path: "/test",
-            element: <ProjCompListDesign />,
+            element: (
+              <div>
+                <ProjectCompoCardDesign />
+                <ProjCompListDesign />
+              </div>
+            ),
           },
         ],
       },
@@ -36,7 +51,7 @@ function App() {
       },
     ],
     {
-      basename: "/common_test_web",
+      // basename: "/common_test_web",
     }
   );
 
